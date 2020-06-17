@@ -2,7 +2,6 @@
     align-self: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(auto-fill, minmax(584px, 1fr));
     row-gap: 80px;
     margin: 0 0 90px;
 }
