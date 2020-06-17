@@ -1,0 +1,18 @@
+.intro__list {
+    list-style: none;
+    flex-direction: column;
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 689px) {
+    .intro__list {
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,42 @@
+@import url(./__link/cover__link.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+
+.cover {
+    position: relative;
+    align-self: center;
+    width: 92.5%;
+    min-height: 740px;
+    z-index: 0;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 1140px) {
+    .cover {
+      min-height: 640px;
+    }
+
+  }
+  
+  @media screen and (max-width: 984px) {
+    .cover {
+      min-height: 480px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 689px) {
+    .cover {
+      min-height: 340px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 440px) {
+    .cover {
+      min-height: 200px;
+    }
+
+  }
+      

@@ -1,0 +1,19 @@
+.footer__link {
+      padding: 0 18px 0 0;
+    width: 94px;
+    height: 18px;
+    left: 191px;
+    top: 6832px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  .footer__link:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+  }
