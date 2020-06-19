@@ -4,13 +4,16 @@
 @import url(./__list-span-accent/intro__list-span-accent.css);
 
 .intro {
-    max-width: 984px;
+    display: flex;
+    flex-direction: column;
     align-self: center;
-    width: 92.5%;
+    max-width: 984px;
+    width: 100%;
+
 }
 
-@media screen and (max-width: 689px) {
+@media screen and (max-width: 1140px) {
     .intro {
-        width: 100%;
+        max-width: 928px;
     }
 }

@@ -3,26 +3,20 @@
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 80px;
-    margin: 0 0 90px;
-}
-
-@media screen and (max-width: 1140px) {
-
+    margin: 0;
+    padding: 0 0 94px;
 }
 
 @media screen and (max-width: 984px) {
-
-}
-
-@media screen and (max-width: 689px) {
-
-    
+    .places {
+        row-gap: 72px;
+        padding-bottom: 92px;
+    }
 }
 
 @media screen and (max-width: 440px) {
     .places {
-        margin-bottom: 64px;
+        padding-bottom: 32px;
+        row-gap: 28px;
     }
-    
-
 }

@@ -1,6 +1,4 @@
 .lead__title {
-    font-family: Inter;
-    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -8,7 +6,15 @@
     color: #fff;
     text-align: center;
     align-self: center;
-    margin: 40px 0 32px;
+    margin: 0;
+    padding: 52px 0 30px;
+}
+
+@media screen and (max-width: 1140px) {
+    .lead__title {
+        padding-top: 50px;
+        padding-bottom: 22px;
+    }
 }
 
 @media screen and (max-width: 689px) {
@@ -16,6 +22,7 @@
         font-size: 48px;
         line-height: 52px;
         max-width: 480px;
+        
     }
 }
 
@@ -23,8 +30,10 @@
     .lead__title  {
         font-size: 40px;
         line-height: 44px;
-        margin-left: 16px;
-        margin-right: 16px;
+        padding-top: 36px;
+        padding-bottom: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
         max-width: 288px;
     }
 }

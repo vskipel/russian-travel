@@ -2,8 +2,18 @@
 @import url(./__image/lead__image.css);
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__title/lead__title.css);
+@import url(./__image-item/lead__image-item.css);
+
 
 .lead {
     display: flex;
     flex-direction: column;
+    max-width: 984px;
+    align-self: center;
+}
+
+@media screen and (max-width: 1140px) {
+    .lead {
+        max-width: 928px;
+    }
 }
