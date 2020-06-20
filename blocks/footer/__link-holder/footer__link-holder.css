@@ -2,8 +2,8 @@
     .footer__link-holder {
         margin-bottom: 32px;
     }
+
     .footer__link-holder:last-of-type {
         margin-bottom: 0;
     }
 }
-

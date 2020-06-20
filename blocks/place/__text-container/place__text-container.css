@@ -2,11 +2,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-
 }
 
-
-    
 @media screen and (max-width: 440px) {
     .place__text-container {
         padding-left: 16px;

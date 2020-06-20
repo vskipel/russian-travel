@@ -16,7 +16,6 @@
         padding-left: 24px;
         width: calc(100% - 24px);
     }
-
 }
 
 @media screen and (max-width: 440px) {

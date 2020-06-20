@@ -11,7 +11,7 @@
     width: 100%;
     width: calc(100% - 96px);
 }
-  
+
 @media (max-width: 984px) {
     .photo-grid {
         width: calc(100% - 48px);
@@ -31,6 +31,3 @@
         padding-bottom: 64px;
     }
 }
-
-
-

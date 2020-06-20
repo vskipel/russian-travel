@@ -6,15 +6,12 @@
     color: #FFFFFF;
     margin: 0;
     padding: 92px 0 38px;
-
 }
 
 @media screen and (max-width: 1140px) {
     .intro__title {
         width: 100%;
-     ;
     }
-
 }
 
 @media screen and (max-width: 984px) {
@@ -24,7 +21,6 @@
         padding-left: 24px;
         padding-right: 24px;
     }
-
 }
 
 @media screen and (max-width: 689px) {
