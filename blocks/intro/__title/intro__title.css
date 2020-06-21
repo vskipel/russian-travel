@@ -1,42 +1,42 @@
 .intro__title {
-    max-width: 720px;
-    font-weight: 900;
-    font-size: 54px;
-    line-height: 58px;
-    color: #FFFFFF;
-    margin: 0;
-    padding: 92px 0 38px;
+  max-width: 720px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 92px 0 38px;
 }
 
 @media screen and (max-width: 1140px) {
-    .intro__title {
-        width: 100%;
-    }
+  .intro__title {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 984px) {
-    .intro__title {
-        padding-top: 88px;
-        width: calc(100% - 48px);
-        padding-left: 24px;
-        padding-right: 24px;
-    }
+  .intro__title {
+    padding-top: 88px;
+    width: calc(100% - 48px);
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }
 
 @media screen and (max-width: 689px) {
-    .intro__title {
-        padding: 64px 0 40px;
-        width: calc(100% - 24px);
-        padding-left: 24px;
-    }
+  .intro__title {
+    padding: 64px 0 40px;
+    width: calc(100% - 24px);
+    padding-left: 24px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-    .intro__title {
-        font-size: 32px;
-        line-height: 35px;
-        max-width: 248px;
-        width: calc(100% - 16px);
-        padding-left: 16px;
-    }
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 248px;
+    width: calc(100% - 16px);
+    padding-left: 16px;
+  }
 }

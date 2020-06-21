@@ -1,15 +1,15 @@
 .header__logo {
-    align-self: flex-start;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 689px) {
-    .header__logo {
-        height: 48px;
-    }
+  .header__logo {
+    height: 48px;
+  }
 }
 
 @media screen and (max-width: 440px) {
-    .header__logo {
-        height: 42px;
-    }
+  .header__logo {
+    height: 42px;
+  }
 }

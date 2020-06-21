@@ -3,31 +3,31 @@
 @import url(./__item-img/photo-grid__item-img.css);
 
 .photo-grid {
-    margin: 0;
-    padding-top: 92px;
-    padding-bottom: 100px;
-    max-width: 1280px;
-    align-self: center;
-    width: 100%;
-    width: calc(100% - 96px);
+  margin: 0;
+  padding-top: 92px;
+  padding-bottom: 100px;
+  max-width: 1280px;
+  align-self: center;
+  width: 100%;
+  width: calc(100% - 96px);
 }
 
 @media (max-width: 984px) {
-    .photo-grid {
-        width: calc(100% - 48px);
-        padding-bottom: 92px;
-    }
+  .photo-grid {
+    width: calc(100% - 48px);
+    padding-bottom: 92px;
+  }
 }
 
 @media (max-width: 689px) {
-    .photo-grid {
-        width: calc(100% - 32px);
-    }
+  .photo-grid {
+    width: calc(100% - 32px);
+  }
 }
 
 @media (max-width: 440px) {
-    .photo-grid {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
+  .photo-grid {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 }

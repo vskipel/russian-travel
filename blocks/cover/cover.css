@@ -10,7 +10,7 @@
   min-height: 740px;
   z-index: 0;
   height: 100%;
-  }
+}
 
 @media screen and (max-width: 1140px) {
   .cover {
@@ -35,4 +35,3 @@
     min-height: 200px;
   }
 }
-    

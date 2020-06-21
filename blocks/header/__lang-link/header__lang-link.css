@@ -1,24 +1,23 @@
 .header__lang-link {
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    color: #fff;
-    font-size: 24px;
-    font-weight: normal;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
 }
 
-
 @media screen and (max-width: 689px) {
-    .header__lang-link {
-        font-size: 22px;
-        line-height: 26px;
-    }
+  .header__lang-link {
+    font-size: 22px;
+    line-height: 26px;
+  }
 }
 
 @media screen and (max-width: 579px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 24px;
-    }
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 24px;
+  }
 }

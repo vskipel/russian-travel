@@ -5,14 +5,14 @@
 @import url(./__image-item/lead__image-item.css);
 
 .lead {
-    display: flex;
-    flex-direction: column;
-    max-width: 984px;
-    align-self: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 984px;
+  align-self: center;
 }
 
 @media screen and (max-width: 1140px) {
-    .lead {
-        max-width: 928px;
-    }
+  .lead {
+    max-width: 928px;
+  }
 }
